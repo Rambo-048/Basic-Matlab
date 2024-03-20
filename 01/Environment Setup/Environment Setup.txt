@@ -1,0 +1,4 @@
+Environment setup 
+
+- GNU Octave aplikasi yang digunakan sebagai alternatif selain Matlab 
+- sudo apt install GNU Octave
