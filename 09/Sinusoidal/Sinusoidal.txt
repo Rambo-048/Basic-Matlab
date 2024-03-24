@@ -1,0 +1,16 @@
+Gelombang sinus atau sinusoidal adalah fungsi matematika yang berbentuk osilasi halus berulang. 
+Fungsi ini sering muncul dalam ilmu matematika, fisika, pengolahan sinyal, dan teknik listrik, 
+dan berbagai bidang lain. Bentuk paling sederhana dari fungsi ini terhadap waktu (t) adalah:
+
+y(t) = A.sin(ωt+φ)
+
+di mana:
+
+A, amplitudo, adalah puncak simpangan fungsi dari posisi tengahnya,
+ω, frekuensi sudut, menunjukkan berapa banyak gerak bolak-balik yang terjadi dalam satu satuan waktu, dalam radian per detik,
+φ, fase, menunjukkan di mana posisi awal gerakan ketika t=0,
+Jika fase tidak bernilai nol, seluruh gelombang akan tampak bergeser menurut sumbu X (sumbu waktu) sebesar φ/ω detik. Nilai negatif pada fase menunjukkan jeda, sedang nilai positif menunjukkan gelombang "berangkat lebih awal".
+
+Gelombang sinus sangat penting dalam bidang fisika karena gelombang ini mempertahankan bentuknya ketika ditambahkan kepada gelombang sinus berfrekuensi sama yang lain walaupun fasenya berbeda. Gelombang ini merupakan satu-satunya fungsi periodik yang memiliki sifat ini. Sifat ini menjadikan gelombang ini bagian penting dalam Analisis Fourier.
+
+Sumber : Wikipedia - Gelombang_Sinus
