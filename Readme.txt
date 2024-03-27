@@ -10,9 +10,9 @@
 10SubPlot
 11Fungsi
 12Fungsi Dalam_External m-File
-13MembacaFIleExcel_ExternalData
-14MembacaFIleExcel_Part2
-15MenulisFIleExcel
+13MembacaFileExcel_ExternalData
+14MembacaFileExcel_Part2
+15MenulisFileExcel
 16Importdata
 17Char&String
 18AnalisisChar1
