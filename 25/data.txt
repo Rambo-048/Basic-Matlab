@@ -1,0 +1,2 @@
+Menulis data ke dalam sebuah File
+Menulis data kedua 
