@@ -11,7 +11,7 @@ fprintf(teks_format);
 A = 5;
 B = 5.25;
 C = 6.25;
-D = 1200;
+D = 1500;
 
 % Umumnya ada 6 specifier data (d,f,g,e,c,s)
 teks = sprintf('A = %d, B = %f, C = %g , D = %e \n',A,B,C,D);
@@ -34,4 +34,4 @@ fprintf(teks_string);
 % Memasukan beberapa variabel dalam 1 String
 %  %d ==> Decimal  , dalam Matlab penggunaan ini bagusnya digunakan pada file Integer jika digunakan pada file float/double kemungkinan hasilnya kurang bagus 
 %  %f ==> Fix Point
-%  %e ==> Eksponensial ==> D = 1.20000e+03    ===> e+03 artinya e pangkat 3
+%  %e ==> Eksponensial ==> D = 1.50000e+03    ===> e+03 artinya e pangkat 3
