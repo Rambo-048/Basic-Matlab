@@ -7,7 +7,7 @@ clc
 [xling3, yling3] = lingkaran(3);
 [xling4, yling4] = lingkaran(2);
 
-plot(xling, yling,xling2, yling2,xling3, yling3,xling4, yling4);
+plot(xling1, yling1,xling2, yling2,xling3, yling3,xling4, yling4);
 
 function [x, y] = lingkaran(r)
   sudut = linspace(0,2*pi,100);
