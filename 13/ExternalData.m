@@ -7,10 +7,11 @@ range = 'A1:B10'
 
 [num, txt, raw] = xlsread(filename,sheet,range);
 
-t = num(:,1);
+x = num(:,1);
 y = num(:,2);
 
-plot(t,y);
+plot(x,y);
 
 xlabel(txt(1));
 ylabel(txt(2));
+
