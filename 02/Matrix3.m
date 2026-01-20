@@ -12,7 +12,7 @@ c = [ 1;2;3;4;5 ] %Vector Baris
 d = [ 1 2; 3 4];  % 2 x 2
 
 % Transpose - Mengubah Kondisi Sebuah Vector. Contoh: Vector Baris ke Kolom atau Vector Kolom ke Baris
-bt = b'
+bt = b';
 ct = c';
 dt = d';
 
