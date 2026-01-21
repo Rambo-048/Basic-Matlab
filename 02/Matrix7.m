@@ -19,7 +19,7 @@ dt = d';
 % Penjumlahan Vector
 sum = b + c';
 
-% Perkalian Vector dot --> % Rumus Perkalian 2 buah Vector dot(a,b)= a1.b1 + a2.b2 + a3.c3 +....+ aN.bN
+% Perkalian Vector dot --> % Rumus Perkalian 2 buah Vector dot(a,b)= a1.b1 + a2.b2 + a3.b3 +....+ aN.bN
 mul = dot(b,c');
 mul = dot(b,b');
 
