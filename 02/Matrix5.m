@@ -2,7 +2,7 @@ clear
 clc
 
 % Skalar
-a = 9;
+a = 10;
 
 % Vector
 b = [ 1 3 5 7 9 ]; %Vector Kolom
@@ -24,18 +24,18 @@ mul = dot(b,c');
 mul = dot(b,b');
 
 % Perkalian Vector Cross -- Hanya Bisa terdiri dari 3 dimensi.
-e = [ 1 3 5 ];
-f = [ 4 6 8 ];
+e = [ 2 4 6 ];
+f = [ 1 3 5 ];
 
 mulyanto = cross(e,f);
 
 % Penggabungan 2 buah Vector, Concatenate
-g = [b e];
+g = [c f];
 h = [b; c'];
 
 % Kondisi dalam Penggabungan 2 buah Vector 
-  i = [b;e]        % <-- Syntax ERROR dikarenakan e terdiri dari 3 dimensi dan b terdiri dari 5 dimensi 
+  i = [c;f]        % <-- Syntax ERROR dikarenakan e terdiri dari 3 dimensi dan b terdiri dari 5 dimensi 
   
-  % Untuk Mengakali agar syntax bisa dijalankan : 
+% Untuk Mengakali agar syntax bisa dijalankan : 
   
-  i = [b;e 2 0];   <-- Syntax Berhasil dijalankan
+  i = [c;f 7 9];   <-- Syntax Berhasil dijalankan
