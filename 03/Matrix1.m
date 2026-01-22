@@ -9,7 +9,7 @@ b = [ 1 5 7 9 3 ]; %Vector Kolom
 c = [ 2;8;4;0;6 ]; %Vector Baris
 
 % Matrix
-d = [ 1 2; 3 4];  % 2 x 2
+d = [ 1 2; 3 4 ];  % 2 x 2
 
 % Transpose
 bt = b';
@@ -35,4 +35,5 @@ h = [b; c'];
 % i = [b;e] <-- Jika Seperti ini maka eror dikarenakan e hanya terdiri dari 3 dimensi sedangkan b 5 dimensi, untuk mengakalinya maka :
   
   i = [b;e 9 1];
+
 
