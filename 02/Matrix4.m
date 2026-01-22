@@ -35,7 +35,7 @@ h = [b; c'];
 % Kondisi dalam Penggabungan 2 buah Vector 
   i = [b;e]        <-- Syntax ERROR dikarenakan e terdiri dari 3 dimensi dan b terdiri dari 5 dimensi 
   
-  Untuk Mengakali agar syntax bisa dijalankan : 
+% Untuk Mengakali agar syntax bisa dijalankan : 
   
   i = [b;e 7 8];   <-- Syntax Berhasil dijalankan
   
