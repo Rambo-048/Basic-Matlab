@@ -2,11 +2,11 @@ clear
 clc
 
 % Skalar
-a = 9;
+a = 10;
 
 % Vector
-b = [ 1 3 7 9 ]; %Vector Kolom
-c = [ 0;2;6;8 ]; %Vector Baris
+b = [ 2 4 6 8 ]; %Vector Kolom
+c = [ 1;3;5;7 ]; %Vector Baris
 
 % Matrix
 d = [ 1 2; 3 4];  % 2 x 2
@@ -30,12 +30,12 @@ f = [ 4 6 8 ];
 mulyanto = cross(e,f);
 
 % Penggabungan 2 buah Vector, Concatenate
-g = [b e];
+g = [c f];
 h = [b; c'];
 
 % Kondisi dalam Penggabungan 2 buah Vector 
-  i = [b;e]        <-- Syntax ERROR dikarenakan e terdiri dari 3 dimensi dan b terdiri dari 5 dimensi 
+  i = [c;f]        <-- Syntax ERROR dikarenakan e terdiri dari 3 dimensi dan b terdiri dari 5 dimensi 
   
   Untuk Mengakali agar syntax bisa dijalankan : 
   
-  i = [b;e 7];     <-- Syntax Berhasil dijalankan
+  i = [c;f 0];     <-- Syntax Berhasil dijalankan
