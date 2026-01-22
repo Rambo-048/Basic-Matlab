@@ -2,8 +2,8 @@ clear
 clc
 
 % Matriks
-A = [ 1 2;3 4]
-B = [ 5 6;7 8]
+A = [ 1 2;3 4 ]
+B = [ 5 6;7 8 ]  
 
 % Perkalian
 C = A*B
@@ -31,3 +31,4 @@ Y = C/B    %Right Division
 % Catatan :
 % X = A\C --> X = B
 % Y = C/B --> Y = A
+
