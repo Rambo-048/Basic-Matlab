@@ -2,8 +2,8 @@ clear
 clc
 
 % Matriks
-A = [ 2 4;6 8]
-B = [ 1 5;7 9]
+A = [ 2 4;6 8 ]
+B = [ 3 5;7 9 ]
 
 % Perkalian
 C = A*B
