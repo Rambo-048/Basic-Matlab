@@ -2,7 +2,7 @@ clear
 clc
 
 % Skalar
-a = 9;
+a = 10;
 
 % Vector
 b = [ 1 2 3 4 5 ] %Vector Kolom
@@ -20,3 +20,4 @@ dt = d';
 b' - c
 b' - b
 c' - c
+
