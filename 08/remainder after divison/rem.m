@@ -2,7 +2,7 @@ A = [1, 2, 3, 4; 5, 6, 7, 8]
 B = rem(A,3)
 C = rem(A,5)
 D = rem(B,C)
-C = rem(C,B)
+E = rem(C,B)
 
 
 % Catatan
@@ -23,7 +23,7 @@ B = rem (A,3) --> A,1 -> 1
      Jadi, rem (A,3) ==> 1 2 0 1 --> Dimensi 1
                          2 0 1 2 --> Dimensi 2       
                    
-B = rem (A,5) --> A,1 -> 1
+C = rem (A,5) --> A,1 -> 1
                   A,2 -> 2
                   A,3 -> 3
                   A,4 -> 4
@@ -38,24 +38,24 @@ B = rem (A,5) --> A,1 -> 1
 Catatan --> Jika (a,0) -> NaN
 
 
-rem (B,C)  ->  B,1 --> 0
-           ->  B,2 --> 0
-         1 ->  B,3 --> 0    <-3
-         2 ->  B,4 --> 1
-         3 ->  B,0 --> NaN
-         1 ->  B,1 --> 0
-         2 ->  B,2 --> 1
-         3 ->  B,3 --> 2
+D = rem (B,C)  ->  B,1 --> 0
+               ->  B,2 --> 0
+             1 ->  B,3 --> 0    <-3
+             2 ->  B,4 --> 1
+             3 ->  B,0 --> NaN
+             1 ->  B,1 --> 0
+             2 ->  B,2 --> 1
+             3 ->  B,3 --> 2
          
          
-rem (C,B)  ->  C,1 --> 0
-           ->  C,2 --> 0
-           ->  C,0 --> NaN
-           ->  C,1 --> 0 
-         1 ->  C,2 --> 0    <-5
-         2 ->  C,0 --> NaN
-         3 ->  C,1 --> 0
-         4 ->  C,2 --> 1
+E = rem (C,B)  ->  C,1 --> 0
+               ->  C,2 --> 0
+               ->  C,0 --> NaN
+               ->  C,1 --> 0 
+             1 ->  C,2 --> 0    <-5
+             2 ->  C,0 --> NaN
+             3 ->  C,1 --> 0
+             4 ->  C,2 --> 1
          
 
 % Dividend (numerator), specified as a number, symbolic number, or a vector or matrix of numbers or symbolic numbers.
