@@ -7,8 +7,8 @@ E = rem(C,B)
 
 % Catatan
 A = [1 2 3 4; 5 6 7 8]
-         1 2 3 4  --> Dimensi 1
-         5 6 7 8  --> Dimensi 2
+                         1 2 3 4  --> Dimensi 1
+                         5 6 7 8  --> Dimensi 2
                                         
             
 B = rem (A,3) --> A,1 -> 1
