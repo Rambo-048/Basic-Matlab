@@ -2,14 +2,14 @@ clear
 clc
 
 for i = 1 : 30 
-  if i == 10
+  if i == 20
+    disp(i);
     %disp('Angka ???????? ditemukan');
-    disp('Jumlah Yang Dibutuhkan 10');
+    disp('Jumlah Yang Dibutuhkan 20');
     continue;
   endif
   pause(1);
   disp(i);
-  disp('Loop');
 endfor
 
 disp('Akhir dari Program');

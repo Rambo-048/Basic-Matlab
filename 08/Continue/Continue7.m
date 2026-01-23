@@ -1,10 +1,10 @@
 clear
 clc
 
-for i = 1 : 30 
-  if i == 10
+for i = 1 : 50 
+  if i == 15
     %disp('Angka ???????? ditemukan');
-    disp('Jumlah Yang Dibutuhkan 10');
+    disp('Jumlah Yang Dibutuhkan 15');
     continue;
   endif
   pause(1);
