@@ -6,8 +6,8 @@ clc
 
 x = linspace(0,2*pi,100);
 y1 = sin(x);
-y2 = sin(x + 0.5);
-y3 = sin(x + 1); % Geser ke kanan 0.5
+y2 = sin(x + 0.5); % Geser ke kanan 0.5
+y3 = sin(x + 1); % Geser ke kanan 1
 
 % Single Lines
 figure(1);
@@ -33,7 +33,7 @@ ylabel('Magnituda');   % Sumbu y
 
 % Multi Lines dengan perintah warna sesuai Keinginan (custom)
 figure(3);
-plot(x,y1,'r',x,y2,'b',x,y3,'g++') 
+plot(x,y1,'r',x,y2,'g++',x,y3,'b') 
 
 % Membuat Nama Figure 3
 title('Plot Sin (x)'); % Judul
@@ -59,5 +59,6 @@ ylabel('Magnituda');       % Sumbu y
 
 % Catatan :
 % Figure fungsinya membuat 2 buah grafik di dalam 1 Program yang sama
-% r = red, y = yellow, g = green -- Kode warna
+% r = red, g = green, b = blue -- Kode warna
 % belajar tipe-tipe garis o-, -. , : , -- , ++ , dll.
+
