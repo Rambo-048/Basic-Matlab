@@ -4,7 +4,7 @@ clc
 x = linspace(0,2*pi,100);
 y1 = sin(x);
 y2 = sin(x + 0.5);
-y3 = sin(x + 1); % Geser ke kanan 0.5
+y3 = sin(x + 1); % Geser ke kanan 1
 y4 = sin(2*x);
 y5 = cos(2*x);
 y6 = cos(2*x + 1);
@@ -35,3 +35,4 @@ plot(x,y5,'g--');
 % belajar tipe-tipe garis o-, -. , : , -- , ++ , dll.
 % Beberapa contoh Kode Warna lain [1 0 1], [1 1 0], [1 0.5 0.5], [0,5 0,5 0,5], [0 0 0], dll
 % Catatan jika semua plot (2,1,2) di aktifkan maka yang terbaca adalah Plot yang terakhir
+
