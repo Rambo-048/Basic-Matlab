@@ -1,15 +1,26 @@
 clear
 clc
 
-a = linspace(-5,5,50)
-b = linspace(-1,1,50)
+global c; % <-- Scope Global
 
-parabola(a)
-hold on
-parabola(b)
-hold off
+pengurangan      % fungsi akan dipanggil sesuai urutan penulisan disini
+penjumlahan      
 
-function parabola(x)
-  y = x.^5 + 5
-  plot(x,y)
+% Fungsi Sederhana
+function perkalian
+  % Inisialisasi (Mengambil Variabel Global)
+  global c;
+  
+  a = 50;
+  b = 5;
+  c = a*b
+end
+
+function pembagian
+  % Inisialisasi (Mengambil Variabel Global)
+  global c;
+  
+  a = 50;
+  b = 5;
+  c = a/b
 end

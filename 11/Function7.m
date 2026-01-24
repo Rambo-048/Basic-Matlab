@@ -11,7 +11,7 @@ function perkalian
   % Inisialisasi (Mengambil Variabel Global)
   global c;
   
-  a = 50;
+  a = 30;
   b = 5;
   c = a*b
 end
@@ -20,7 +20,7 @@ function pembagian
   % Inisialisasi (Mengambil Variabel Global)
   global c;
   
-  a = 50;
+  a = 30;
   b = 5;
   c = a/b
 end

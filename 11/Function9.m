@@ -1,22 +1,15 @@
 clear
 clc
 
-a = linspace(-5,5,50);
-b = linspace(-5,5,50);
+a = linspace(-5,5,50)
+b = linspace(-1,1,50)
 
-parabola(a,1,1)
+parabola(a)
 hold on
-parabola(a,2,2)
-parabola(a,3,3)
-parabola(a,4,4)
-parabola(a,5,5)
-parabola(b,6,6)
+parabola(b)
 hold off
 
-function parabola(x,p,c) % x,  p,  c itu inputnya
-  y = p*x.^5 + c;
+function parabola(x)
+  y = x.^5 + 5
   plot(x,y)
 end
-
-
-% CATATAN : Jika Eror Coba Tulis Ulang Syntax

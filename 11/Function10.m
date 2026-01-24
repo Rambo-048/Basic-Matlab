@@ -1,13 +1,22 @@
 clear
 clc
 
-% fungsi dengan input dan output
-[xling, yling] = lingkaran(30);
+a = linspace(-5,5,50);
+b = linspace(-5,5,50);
 
-plot(xling, yling);
+parabola(a,1,1)
+hold on
+parabola(a,2,2)
+parabola(a,3,3)
+parabola(a,4,4)
+parabola(a,5,5)
+parabola(b,6,6)
+hold off
 
-function [x, y] = lingkaran(r)
-  sudut = linspace(0,5*pi,150);
-  x = r*cos(sudut);
-  y = r*sin(sudut);
+function parabola(x,p,c) % x,  p,  c itu inputnya
+  y = p*x.^5 + c;
+  plot(x,y)
 end
+
+
+% CATATAN : Jika Eror Coba Tulis Ulang Syntax

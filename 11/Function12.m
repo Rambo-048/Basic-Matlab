@@ -2,13 +2,9 @@ clear
 clc
 
 % fungsi dengan input dan output
-[xling1, yling1] = lingkaran(5);
-[xling2, yling2] = lingkaran(4);
-[xling3, yling3] = lingkaran(3);
-[xling4, yling4] = lingkaran(2);
-[xling5, yling5] = lingkaran(1);
+[xling, yling] = lingkaran(50);
 
-plot(xling1, yling1, xling2, yling2, xling3, yling3, xling4, yling4, xling5, yling5);
+plot(xling, yling);
 
 function [x, y] = lingkaran(r)
   sudut = linspace(0,5*pi,200);
