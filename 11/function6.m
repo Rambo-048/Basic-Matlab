@@ -8,9 +8,6 @@ clc
 [xling4, yling4] = lingkaran(3);
 [xling5, yling5] = lingkaran(1);
 
-
-
-
 plot(xling1, yling1, xling2, yling2, xling3, yling3, xling4, yling4, xling5, yling5);
 
 function [x, y] = lingkaran(r)
