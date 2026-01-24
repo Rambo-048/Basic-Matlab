@@ -6,7 +6,7 @@ clc
 
 x = linspace(0,5*pi,100);
 y1 = sin(x);
-y2 = sin(x + 1);
+y2 = sin(x + 1);   % Geser ke kanan 1
 y3 = sin(x + 1.5); % Geser ke kanan 1.5
 
 % Single Lines
