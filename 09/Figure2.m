@@ -21,7 +21,7 @@ plot(x,y1,x,y2,x,y3) % Membuat Grafik 3 Koordinat
 
 % Multi Lines 2 dengan perintah warna sesuai Keinginan
 figure(3);
-plot(x,y1/2,'r',x,y2+1.5,'b',x,y3*2,'g') 
+plot(x,y1/2,'r',x,y2+1.5,'g',x,y3*2,'b') 
 
 % Figure fungsinya membuat 2 buah grafik di dalam 1 Program yang sama
-% r = red, y = yellow, g = green -- Kode warna
+% r = red, g = green, b = blue -- Kode warna
