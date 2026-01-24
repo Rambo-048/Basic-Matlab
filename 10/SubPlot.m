@@ -3,7 +3,7 @@ clc
 
 x = linspace(0,2*pi,100);
 y1 = sin(x);
-y2 = sin(x + 0.5); % Geser ke kanan 1
+y2 = sin(x + 0.5); % Geser ke kanan 0.5
 y3 = sin(x + 1); % Geser ke kanan 1
 y4 = sin(2*x);
 y5 = cos(2*x);
@@ -33,4 +33,5 @@ hold off
 % r = red, g = green, b = blue -- Kode warna
 % belajar tipe-tipe garis o-, -. , : , -- , ++ , dll.
 % Beberapa contoh Kode Warna lain [1 0 1], [1 1 0], [1 0.5 0.5], [0,5 0,5 0,5], [0 0 0], dll  <----- [R G B] Decimal Code Color
+
 
