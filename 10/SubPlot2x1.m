@@ -4,7 +4,7 @@ clc
 x = linspace(0,2*pi,100);
 y1 = sin(x);
 y2 = sin(x + 0.5);
-y3 = sin(x + 1); % Geser ke kanan 0.5
+y3 = sin(x + 1); % Geser ke kanan 1
 y4 = sin(2*x);
 y5 = cos(2*x);
 y6 = cos(2*x + 1);
