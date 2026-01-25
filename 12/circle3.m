@@ -1,7 +1,7 @@
 clear
 clc
 
-jarijari = 18;
+jarijari = 30;
 X0 = 0;
 Y0 = 0;
 
