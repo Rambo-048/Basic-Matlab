@@ -1,8 +1,0 @@
-2 jeruk
-5 apel
-6 pisang
-9 durian
-7 semangka 
-1 melon
--> Data bermasalah tidak dapat dipanggil menggunakan import data
--> Data dapat dipanggil dengan menggunakan low level io
