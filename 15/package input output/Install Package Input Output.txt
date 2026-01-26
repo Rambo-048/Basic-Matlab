@@ -1,12 +1,12 @@
 ENVIRONMENT SETUP
 
 Install
+  $ sudo apt install octave-io
+  $ sudo apt install liboctave-dev
+
   $ pkg install -forge io
   atau
   $ pkg install io-*.tar.gz
-  atau
-  $ sudo apt install octave-io
-  $ sudo apt install liboctave-dev
 
 Load Package After Installation
   $ pkg load io
