@@ -5,7 +5,7 @@ clc
 x = 1:10;
 y = x.^2;
 Data = [x' y'];
-DataCell = num2cell(data); % <-- samakan data
+DataCell = num2cell(Data); % <-- samakan data
 Header = {'angka','kuadrat'};
 % [Header;Data] penulisan langsung seperti ini tidak bisa karena perbedaan Length maka Data Perlu kita samakan terlebih dahulu
 
@@ -19,4 +19,5 @@ xlswrite(filename,A,sheet,xlrange)
 % CATATAN : Menulis data ke Windows itu bisa dikarenakan di Windows ada Excel Server
 %           Tapi di Mac atau Linux tidak bisa karena tidak memiliki Excel Server karena akan Otomatis berubah menjadi CSV
 % Data = {'time',1;2;3}  % <-- Penulisan Data Cell
+
 
