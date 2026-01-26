@@ -6,7 +6,7 @@ function [x, y] = lingkaran(r, posx, posy)
 %  posx = titik pusat X0
 %  posy = titik pusat Y0
   
-  theta = linspace(0, 5*pi, 200)
+  theta = linspace(0, 4*pi, 200)
   
   x = r*cos(theta) + posx;
   y = r*sin(theta) + posy; 
