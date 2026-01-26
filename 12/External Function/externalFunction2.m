@@ -6,9 +6,9 @@ X0 = 0;
 Y0 = 0;
 
 % RUMUS -- hasil = lingkaran(r,posx,posy) 
-[x1,y1] = lingkaran(jarijari,X0,Y0)
-[x2,y2] = lingkaran(1,30,0)
-[x3,y3] = lingkaran(1,-30,0)
+[x1,y1] = lingkaran1(jarijari,X0,Y0)
+[x2,y2] = lingkaran1(1,30,0)
+[x3,y3] = lingkaran1(1,-30,0)
 
 plot(x1,y1)
 hold on
