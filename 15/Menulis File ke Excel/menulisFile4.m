@@ -5,7 +5,7 @@ clc
 x = 1:30;
 y = x.^5;
 Data = [x' y'];
-DataCell = num2cell(data); % <-- samakan data
+DataCell = num2cell(Data); % <-- samakan data
 Header = {'angka','kuadrat'};
 % [Header;Data] penulisan langsung seperti ini tidak bisa karena perbedaan Length maka Data Perlu kita samakan terlebih dahulu
 
