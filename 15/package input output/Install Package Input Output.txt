@@ -1,0 +1,9 @@
+ENVIRONMENT SETUP
+
+Install
+  $ pkg install -forge io
+  atau
+  $ pkg install io-*.tar.gz
+
+Load Package After Installation
+  $ pkg load io
