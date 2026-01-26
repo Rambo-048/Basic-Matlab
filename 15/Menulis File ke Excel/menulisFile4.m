@@ -4,7 +4,7 @@ clc
 %% Siapkan Data Untuk Ditulis di Excel
 x = 1:30;
 y = x.^5;
-Data[x' y'];
+Data = [x' y'];
 DataCell = num2cell(data); % <-- samakan data
 Header = {'angka','kuadrat'};
 % [Header;Data] penulisan langsung seperti ini tidak bisa karena perbedaan Length maka Data Perlu kita samakan terlebih dahulu
