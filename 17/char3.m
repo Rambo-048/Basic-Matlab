@@ -40,4 +40,4 @@ Menu_Sarapan = [menu1 menu2];
 menu3 = 'Salad';
 menu4 = 'Martabak';
 
-Menu = {menu1, menu2, menu3, menu4}
+Daftar_Menu = {menu1, menu2, menu3, menu4}
