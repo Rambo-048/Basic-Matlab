@@ -31,7 +31,7 @@ nama1(5) = 'a';
 menu1(6) = 'k';
 menu1(7) = 'e';
 
-nama2 = 'Mayonaise';
+menu2 = 'Mayonaise';
 
 % concat
 Menu_Sarapan = [menu1 menu2];
