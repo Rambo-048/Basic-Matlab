@@ -46,5 +46,5 @@ menu8 = 'Bolu Kismis';
 menu9 = 'Burger';
 menu10 = 'Taco';
 
-Menu = {menu1, menu2, menu3, menu4, menu5, menu6, menu7, menu8, menu9, menu10}
+Daftar_Menu = {menu1, menu2, menu3, menu4, menu5, menu6, menu7, menu8, menu9, menu10}
 
