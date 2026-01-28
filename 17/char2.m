@@ -16,9 +16,9 @@ f_ascii = uint8(f);
 
 huruf_ascii = uint8(huruf1)
 
-a = char(97);
-c = char(99);
-d = char(100);
+%a = char(97);
+%b = char(99);
+%c = char(100);
 
 % Append
 nama1 = 'Beck';
