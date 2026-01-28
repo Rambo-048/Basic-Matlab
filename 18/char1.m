@@ -6,19 +6,19 @@ huruf1 = 'abcdefghijklmnopqrstuvwxyz';
 huruf2 = 'ABCDEFGHIJKLMNOPQRSTUVWXYZ';
 
 % Indexing di Char
-b = huruf1(2);
-o = huruf1(5);
-a_f = huruf1(1:15);
+a = huruf1(2);
+b = huruf1(5);
+c = huruf1(1:15);
 
 % Mapping
-b_ascii = uint8(b);   % uint8(unsigned 8 bit)
-f_ascii = uint8(f);
+a_ascii = uint8(a);   % uint8(unsigned 8 bit)
+b_ascii = uint8(b);
 
 huruf_ascii = uint8(huruf1)
 
-a = char(111);
-c = char(116);
-d = char(100);
+%a = char(111);
+%b = char(116);
+%c = char(100);
 
 % Append
 nama1 = 'Eli';
@@ -33,5 +33,6 @@ array_nama = [nama1 nama2];
 nama3 = 'Kripik';
 nama4 = 'Roshan';
 
-nama = {nama1, nama2, nama3, nama4}
+Daftar_Nama = {nama1, nama2, nama3, nama4}
+
 
