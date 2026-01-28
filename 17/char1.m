@@ -16,9 +16,9 @@ f_ascii = uint8(f);
 
 huruf_ascii = uint8(huruf1)
 
-a = char(97);
-c = char(99);
-d = char(100);
+%a = char(97);
+%c = char(99);
+%d = char(100);
 
 % Append
 nama1 = 'Eli';
@@ -34,4 +34,5 @@ nama3 = 'Kripik';
 nama4 = 'Roshan';
 
 nama = {nama1, nama2, nama3, nama4}
+
 
