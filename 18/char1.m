@@ -28,9 +28,10 @@ nama1(5) = 'a';
 nama2 = ' Cuthbert';
 
 % concat
-nama_saya = [nama1 nama2];
+array_nama = [nama1 nama2];
 
 nama3 = 'Kripik';
 nama4 = 'Roshan';
 
 nama = {nama1, nama2, nama3, nama4}
+
