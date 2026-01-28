@@ -22,8 +22,8 @@ huruf_ascii = uint8(huruf1)
 
 % Append
 nama1 = 'Beck';
-nama1(6) = 'z';
-nama1(7) = 'a';
+nama1(5) = 'z';
+nama1(6) = 'a';
 
 nama2 = ' Cuthbert';
 
