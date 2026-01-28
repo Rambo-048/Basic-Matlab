@@ -10,7 +10,8 @@ data1 = huruf1(6);
 data2 = huruf1(10);
 data3 = huruf2(22);
 data4 = huruf2(26);
-data5 = huruf1(1:20);
+data5 = huruf2(20);
+data6 = huruf1(1:20);
 
 % Mapping
 a_ascii = uint8(data1);   % uint8(unsigned 8 bit)
