@@ -6,13 +6,13 @@ huruf1 = 'abcdefghijklmnopqrstuvwxyz';
 huruf2 = 'ABCDEFGHIJKLMNOPQRSTUVWXYZ';
 
 % Indexing di Char
-b = huruf1(2);
-o = huruf1(5);
-a_f = huruf1(1:15);
+a = huruf1(2);
+b = huruf1(5);
+c = huruf1(1:15);
 
 % Mapping
-b_ascii = uint8(b);   % uint8(unsigned 8 bit)
-f_ascii = uint8(f);
+a_ascii = uint8(a);   % uint8(unsigned 8 bit)
+b_ascii = uint8(b);
 
 huruf_ascii = uint8(huruf1)
 
