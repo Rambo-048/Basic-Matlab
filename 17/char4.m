@@ -10,7 +10,8 @@ data1 = huruf1(19);
 data2 = huruf2(26);
 data3 = huruf1(14);
 data4 = huruf2(22);
-data5 = huruf1(1:20);
+data5 = huruf2(2);
+data6 = huruf1(1:20);
 
 % Mapping
 a_ascii = uint8(data1);   % uint8(unsigned 8 bit)
@@ -21,8 +22,8 @@ ascii_number = uint8(huruf1)
 %A = char(48);
 %B = char(49);
 %C = char(50);
-%B = char(51);
-%C = char(52);
+%D = char(51);
+%E = char(52);
 
 % Append
 menu1 = 'Pan';
