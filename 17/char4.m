@@ -25,9 +25,9 @@ ascii_number = uint8(huruf1)
 %C = char(52);
 
 % Append
-nama1 = 'Pan';
-nama1(4) = 'c';
-nama1(5) = 'a';
+menu1 = 'Pan';
+menu1(4) = 'c';
+menu1(5) = 'a';
 menu1(6) = 'k';
 menu1(7) = 'e';
 
