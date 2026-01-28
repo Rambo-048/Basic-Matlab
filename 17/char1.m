@@ -33,7 +33,8 @@ array_nama = [nama1 nama2];
 nama3 = 'Kripik';
 nama4 = 'Roshan';
 
-nama = {nama1, nama2, nama3, nama4}
+Daftar_Nama = {nama1, nama2, nama3, nama4}
+
 
 
 
