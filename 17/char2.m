@@ -35,4 +35,4 @@ nama4 = 'Guan';
 nama5 = 'Asuka';
 nama6 = 'Sakiri';
 
-nama = {nama1, nama2, nama3, nama4, nama5, nama6}
+Daftar_Nama = {nama1, nama2, nama3, nama4, nama5, nama6}
