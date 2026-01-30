@@ -1,0 +1,22 @@
+clear
+clc
+
+data1 = 'a5uK4 s7aB3r';
+data2 = '4sUkA 57aBe12';
+
+n = length(data1);
+data_huruf = 0;
+data_angka = 0;
+
+huruf = []; % Data dianggap Numeric karena menggunakan Casting jadi langsung diubah ke integer/ASCII
+angka = []; % Data Numeric
+
+for i = 1:n
+  if isletter(data1(i))
+    data_huruf = data_huruf + 1;
+    huruf(i) = data1(i);
+  elseif isstrprop(data1(i),'digit')
+    data_angka = data_angka + 1;
+    angka(i) = data1(i);
+  end
+end
