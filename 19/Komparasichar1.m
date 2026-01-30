@@ -2,7 +2,7 @@ clear
 clc
 % history -c % menghapus command history
 
-hari = input('masukkan nama hari(senin/selasa/rabu/kamis/jumat/sabtu/minggu) : ','s');
+hari = input('masukkan nama hari(senin/selasa/rabu/kamis/jumat/sabtu/minggu : )', 's');
 
 if strcmp (hari, 'selasa')
   disp('a');
