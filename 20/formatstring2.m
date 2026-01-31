@@ -20,21 +20,21 @@ fprintf(total_value);
 
 % Specifier c dan s
 % %c untuk Single Karakter
-Character1 = 'Sup Kacang Hijau';
-Character2 = 'Cokelat Panas';
+Menu1 = 'Sup Kacang Hijau';
+Menu2 = 'Cokelat Panas';
 
-teks_Character = sprintf('Character = %c \n', Character1);
-fprintf(teks_Character);
+% Memasukan beberapa variabel dalam 1 String
+String = sprintf('Char -> %c \n', Menu1);
+fprintf(String);
 
-teks_string = sprintf('string = %s \n', Character1);
-fprintf(teks_string);
+String = sprintf('String 1 = %s \n', Menu1);
+fprintf(String);
 
-teks_string = sprintf('string = %s \n', 'New Character Unlocked');
-fprintf(teks_string);
+String = sprintf('String 2 = %s \n', 'New Character Unlocked');
+fprintf(String);
 
 % sprintf ==> print untuk formating teks/teks format
 % fprintf ==> Langsung munculkan VALUE = 30
-% Memasukan beberapa variabel dalam 1 String
 %  %d ==> Decimal  , dalam Matlab penggunaan ini bagusnya digunakan pada file Integer jika digunakan pada file float/double kemungkinan hasilnya kurang bagus 
 %  %f ==> Fix Point
 %  %e ==> Eksponensial ==> D = 3.50000e+03    ===> e+03 artinya e pangkat 3
