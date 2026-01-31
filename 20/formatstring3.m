@@ -18,12 +18,11 @@ E = 4000;
 total_value = sprintf('A = %d\n, B = %f\n, C = %g\n, D = %e\n, E = %d\n',A,B,C,D,E);
 fprintf(total_value);
 
-% Specifier c dan s
-% %c untuk Single Karakter
+
+% Memasukan variabel dalam String yang ditentukan
 Menu1 = 'Sup Kacang Hijau';
 Menu2 = 'Cokelat Panas';
 
-% Memasukan variabel dalam String yang ditentukan
 String1 = sprintf('Char -> %c \n', Menu1);
 fprintf(String1);
 
@@ -33,8 +32,11 @@ fprintf(String2);
 String3 = sprintf('String 2 = %s \n', 'New Character Unlocked');
 fprintf(String3);
 
+
 % sprintf ==> print untuk formating teks/teks format
 % fprintf ==> Langsung munculkan VALUE = 30
 %  %d ==> Decimal  , dalam Matlab penggunaan ini bagusnya digunakan pada file Integer jika digunakan pada file float/double kemungkinan hasilnya kurang bagus 
 %  %f ==> Fix Point
 %  %e ==> Eksponensial ==> D = 3.50000e+03    ===> e+03 artinya e pangkat 3
+%  %c ==> Char --> Single Karakter
+%  %s ==> String --> Menampilkan Teks
