@@ -17,21 +17,21 @@ D = 1500;
 total_value = sprintf('A = %d\n, B = %f\n, C = %g\n, D = %e\n',A,B,C,D);
 fprintf(total_value);
 
-% Specifier c dan s
-% %c untuk Single Karakter
+% Memasukan beberapa variabel dalam 1 String
 Karakter = 'Xing Kong';
-teks_karakter = sprintf('karakter = %c \n', Karakter);
-fprintf(teks_karakter);
+String = sprintf('Char -> %c \n', Karakter);
+fprintf(String);
 
-teks_string = sprintf('string = %s \n', Karakter);
-fprintf(teks_string);
+String = sprintf('String 1 = %s \n', Karakter);
+fprintf(String);
 
-teks_string = sprintf('string = %s \n', 'New Character Unlocked');
-fprintf(teks_string);
+String = sprintf('string 2 = %s \n', 'New Character Unlocked');
+fprintf(String);
 
 % sprintf ==> print untuk formating teks/teks format
 % fprintf ==> Langsung munculkan VALUE = 20
-% Memasukan beberapa variabel dalam 1 String
 %  %d ==> Decimal  , dalam Matlab penggunaan ini bagusnya digunakan pada file Integer jika digunakan pada file float/double kemungkinan hasilnya kurang bagus 
 %  %f ==> Fix Point
 %  %e ==> Eksponensial ==> D = 1.50000e+03    ===> e+03 artinya e pangkat 3
+%  %c ==> Char --> Single Karakter
+%  %s ==> String --> Menampilkan Teks
