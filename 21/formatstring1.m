@@ -15,16 +15,16 @@ C = 6.25;
 D = 1500;
 
 % Umumnya ada 6 specifier data (d,f,g,e,c,s)
-teks = sprintf('A = %d, B = %f, C = %g , D = %e \n',A,B,C,D);
-fprintf(teks);
+total_value = sprintf('A = %d, B = %f, C = %g , D = %e \n',A,B,C,D);
+fprintf(total_value);
 
 
 % Memasukan beberapa variabel dalam 1 String
-Karakter = 'Xing Kong';   % Contoh : A ==> Single Karakter dan Jika Banyak seperti ini 'Xing Kong' maka akan menjadi Array Karakter
-String = sprintf('karakter = %c \n', Karakter);
+karakter = 'Xing Kong';   % Contoh : 'A' ==> Single Karakter dan Jika Banyak seperti ini 'Xing Kong' maka akan menjadi Array Karakter
+String = sprintf('Karakter = %c \n', karakter);
 fprintf(String);
 
-String = sprintf('String 1 = %s \n', Karakter);
+String = sprintf('String 1 = %s \n', karakter);
 fprintf(String);
 
 String = sprintf('String 2 = %s \n', 'New Character Unlocked');
