@@ -45,7 +45,7 @@ fprintf(Value_PI);
 
 
 %% Membulatkan Angka --> %g  ==> untuk membulatkan data yang memiliki koma
-Variable1 = sprintf('Value PI : %.5f \nValue PI : %.2f \n', pi,pi); ==> gunakan untuk membulatkan data yang memiliki koma
+Variable1 = sprintf('Value PI : %.5f \nValue PI : %.2f \n', pi,pi);
 fprintf(Variable1);
 
 
