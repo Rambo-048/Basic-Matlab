@@ -2,11 +2,11 @@
 clear
 clc
 
-A = 20;
+VALUE = 20;
 
 % Bentuk Umum untuk penggunaan format teks
-teks_format = sprintf('Nilai A = %d\n',A);
-fprintf(teks_format);
+format_number = sprintf('Value is = %d\n', VALUE);
+fprintf(format_number);
 
 % Mulai
 A = 5;
