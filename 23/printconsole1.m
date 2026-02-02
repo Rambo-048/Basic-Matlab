@@ -8,10 +8,11 @@ disp('-------|------');
 
 for i = 1:length(x)
   y = parabola(x(i));
-  data_text = sprintf('%5.2f | %5.2f \n',x(i),y);
-  fprintf(data_text);
+  format_number = sprintf('%5.2f | %5.2f \n', x(i),y);
+  fprintf(format_number);
   pause(0.5);
 end
+
 function y = parabola(x);
   y = x^2;
 end
