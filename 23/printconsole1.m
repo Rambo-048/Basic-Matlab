@@ -3,8 +3,8 @@ clc
 
 x = linspace(-4,4,20);
 
-disp('   X   |   Y  ');
-disp('-------|------');
+disp('   X   |    Y  ');
+disp('-------|-------');
 
 for i = 1:length(x)
   y = parabola(x(i));
