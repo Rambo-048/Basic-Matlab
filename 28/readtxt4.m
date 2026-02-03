@@ -1,16 +1,20 @@
 clear
 clc
 
-filename = 'data3.txt';
-file = fopen(filename,'r');
+% Import data dengan menggunakan low level i/o
+% fscanf dan fgetl
+% fscanf ==> Membaca data Secara Keseluruhan
+% fgetl  ==> Membaca file per baris
 
-baris1 = fgetl(file);
-baris2 = fgetl(file);
+filename = 'data5.txt';
+file = fopen(filename, 'r');
 
-nama_variabel = fscanf(file,'%c;%c',[2 1]);
+formatString = '%d';
+A = fscanf(file,formatString);    % Membaca Seluruh File dari titik tertentu sampai akhir
 
-data = fscanf(file,'%f;%f',[2 inf]);
+%B = fgetl(file);   % Mengambil data pada setiap Barisnya
+%C = fgetl(file);
+%D = fgetl(file);
+%E = fgetl(file);
 
 fclose(file);
-
-

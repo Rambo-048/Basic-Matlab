@@ -5,8 +5,7 @@ filename = 'data4.txt';
 file = fopen(filename,'r');
 
 formatData = '%f %f';
-%sizeA = [5 10];
-sizeA = [20 30];
+sizeA =[30 inf];
 
-A = fscanf(file, formatData,sizeA); % No Transpose
+A = fscanf(file, formatData,sizeA)'; % <== Transpose
 fclose(file);
