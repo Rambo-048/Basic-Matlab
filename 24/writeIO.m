@@ -10,7 +10,7 @@ filename = 'data.txt';
 % a = Menambahkan data pada akhir dari teks
 
 file = fopen(filename,'w');
-fprintf(file,'Menulis data ke dalam sebuah File \n');
+fprintf(file,'A Great Attitude, Becomes A Great Day, Which Becomes A Great Year \n');
 
 % close atau finalisasi data ke file
 fclose(file);
