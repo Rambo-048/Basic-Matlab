@@ -1,7 +1,7 @@
 clear
 clc
 
-filename = 'data.dat';
+filename = 'data1.dat';
 FILE = fopen(filename,'w');
 
 x = linspace(-4,4,20);
@@ -21,4 +21,5 @@ fclose(FILE);
 function y = parabola(x);
   y = x^2;
 end
+
 
